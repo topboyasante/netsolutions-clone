@@ -3,9 +3,9 @@ import Button from '../Reusables/Button'
 
 function ContactForm() {
   return (
-        <main className='flex flex-col justify-center items-center h-[90vh]'>
+        <main className='flex flex-col justify-center items-center h-[90vh] p-5'>
         <h1 className='text-3xl'>Contact Us</h1>
-        <p>Have a web or mobile app project in mind? Let’s discuss making your project a reality.</p>
+        <p className='text-center lg:text-left'>Have a web or mobile app project in mind? Let’s discuss making your project a reality.</p>
         <form className='self-center w-full'>
         <div class="relative z-0 w-full mb-6 group">
             <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
