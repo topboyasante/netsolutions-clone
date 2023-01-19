@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Reusables/Button'
 
 function Hero() {
   return (
@@ -14,8 +15,8 @@ function Hero() {
                 </p>
                 {/* buttons */}
                 <div className='flex flex-col lg:flex-row gap-5 my-2 p-3'>
-                  <button className='border-2 border-[#f13625] px-4 py-2 text-[#f13625] hover:bg-[#f13625] hover:text-white ease duration-500'>Explore Services</button>
-                  <button className='border-2 border-[#f13625] px-4 py-2 text-[#f13625] hover:bg-[#f13625] hover:text-white ease duration-500'>View Client Success Stories</button>
+                  <Button text={`Explore Services`}/>
+                  <Button text={`View Client Success Stories`}/>
                 </div>
                 {/* reviews */}
                 <section className='flex flex-col lg:flex-row gap-5 justify-between items-center mt-[50px] p-5'>
@@ -27,8 +28,8 @@ function Hero() {
               </div>
 
               {/* form */}
-              <section className='w-[35%] h-[80%] bg-[#f9d94e] p-[3em] shadow-2xl hidden lg:flex flex-col justify-center items-center'>
-                  <h1 className='font-extrabold text-4xl w-[80%] '>Have A Project in Mind? Chat With Our Experts.</h1>
+              <section className='w-[35%] h-[80%] bg-[#f8a709] p-[3em] shadow-2xl hidden lg:flex flex-col justify-center items-center'>
+                  <h1 className='font-extrabold text-4xl w-[100%] '>Have A Project in Mind? Chat With Our Experts.</h1>
                   <form className='w-full my-5'>
                     <input type="text"  placeholder='NAME*' className='w-full px-2 py-4 my-2'/>
                     <input type="email"  placeholder='EMAIL*' className='w-full px-2 py-4 my-2'/>
@@ -44,7 +45,7 @@ function Hero() {
 
                     <textarea name="message" rows={4} className='w-full resize-none my-2'></textarea>
 
-                    <button className='bg-[#f13625] text-white w-full px-4 py-2 text-3xl font-bold shadow-xl my-5'>Get in Touch</button>
+                    <button className='bg-[#015588] text-white w-full px-4 py-2 text-3xl font-bold shadow-xl my-5'>Get in Touch</button>
                   </form>
               </section>
           </section>

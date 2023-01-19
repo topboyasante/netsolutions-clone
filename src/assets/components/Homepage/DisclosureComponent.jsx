@@ -4,7 +4,7 @@ import {AiOutlinePlus} from 'react-icons/ai'
 
 function DisclosureComponent({title,content}) {
   return (
-    <section className='shadow rounded w-full ease duration-500'>
+    <section className='shadow rounded w-full ease duration-500 '>
          <Disclosure>
             <Disclosure.Button className={`w-full p-5`}>
                 <div className='flex justify-between items-center w-full'>

@@ -5,10 +5,10 @@ function Disclosures() {
   return (
     <main className='w-screen h-full p-5'>
         <section className='max-w-[1700px] mx-auto'>
-            <section className='flex justify-between items-center p-5'>
-                <h1 className='text-5xl w-[50%]'>Software, App, and Website Development Agency Services</h1>
+            <section className='flex flex-col lg:flex-row justify-between items-center p-5'>
+                <h1 className='text-3xl lg:text-5xl lg:w-[50%]'>Software, App, and Website Development Agency Services</h1>
                 
-                <section className='w-[50%]'>
+                <section className='lg:w-[50%] self-center p-3'>
                     <DisclosureComponent title={'Experience Design'}
                     content={`Turn your company’s UX into your X-factor with the Net Solutions experience design process. 
                     Our people-first philosophy results in finished products that strike the perfect balance of emotion and function, leaving your customers to experience more rewarding interactions with your products and services.

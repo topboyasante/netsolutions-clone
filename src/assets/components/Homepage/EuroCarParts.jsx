@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Reusables/Button'
 
 function EuroCarParts() {
   return (
@@ -9,13 +10,12 @@ function EuroCarParts() {
       w-full h-[80%] bg-no-repeat bg-cover my-5'>
           <img src="https://www.netsolutions.com/assets/images/net-solutions-man-working-garage-automobile.webp" alt="hubpix" className='block lg:hidden'/>
           <div className="lg:absolute bg-white bottom-0 left-[5em] lg:w-[40%] p-[3em]">
-            <img src="https://www.netsolutions.com/assets/images/net-solutions-client-euro-car-parts-logo.svg" alt="hubpix"/>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Electoral_Commission_of_Ghana_logo.jpg" alt="hubpix" className='w-[200px]'/>
             <p className='font-extralight lg:text-2xl my-5'>Learn how we built a unified digital commerce platform for Euro Car Parts, 
             the UK's largest eCommerce car parts supplier. Through our efforts, they were able to streamline their backend operations, 
             speed up their supply chain, and support customer loyalty across multiple channels.
             </p>
-            <button className='border-2 border-[#f13625] px-4 py-2 text-[#f13625] hover:bg-[#f13625] hover:text-white ease duration-500 font-normal'>
-              Read the Success Story</button>
+            <Button text={`Read the Success Story`}/>
           </div>
       </section>
     </section>
