@@ -3,7 +3,7 @@ import Button from '../Reusables/Button'
 
 function Hero() {
   return (
-    <main className='pt-[7vh] w-screen lg:h-screen'>
+    <main className='pt-[7vh] w-screen xl:h-screen'>
       <section className='max-w-[1600px] mx-auto h-full'>
           <section className='flex justify-between items-center h-full'>
               {/* text */}
