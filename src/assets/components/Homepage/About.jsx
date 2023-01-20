@@ -3,7 +3,7 @@ import Button from '../Reusables/Button'
 
 function About() {
   return (
-    <main className='w-screen h-full xl:h-[80vh] xl:py-5 xl:relative'>
+    <main className='w-screen h-full xl:h-[85vh] xl:py-5 xl:relative'>
         <section className='max-w-[1600px] mx-auto h-full xl:relative'>
 
            <section className='w-full xl:relative flex flex-col justify-center items-center'>
